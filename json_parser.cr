@@ -1,7 +1,7 @@
 require "json"
 
 # Define a data model
-struct User 
+struct User
   include JSON::Serializable
 
   property name : String
